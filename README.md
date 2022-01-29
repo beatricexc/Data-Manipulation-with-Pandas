@@ -29,4 +29,5 @@ Dataframe objects are made of three components stored as attributes:
 - subsetting based on dates: dogs[dogs["data_of_birth"] == "2014-02-01"] yyyy/mm/dd (international format)
 - subsetting based on multiple conditions : eg. is_lab = dogs["breed] == "Labrador" 
                                                 is_brown = dogs["color"] == "Brown"
+                                                
                                                 dogs[is_lab & is_brown]                                              
