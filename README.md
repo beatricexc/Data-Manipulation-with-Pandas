@@ -18,3 +18,15 @@ Dataframe objects are made of three components stored as attributes:
 - .sort_values(" ", ascending = False) 
 - .sort_values([" ", " "]) - sorting by multiple variables
 - .sort_values([" ", " "], ascending = [True, False]) 
+
+#### Subsetting columns
+- dfname[" "]
+- dfname[[" ", " "]] - subsetting multiple columns
+
+#### Subsetting rows 
+- the easiset way is to create a logical condition to filter it: dfname[ "column name"] > 50
+- subsetting based on text data eg: dogs[dogs["breed"] == "Labrador"]
+- subsetting based on dates: dogs[dogs["data_of_birth"] == "2014-02-01"] yyyy/mm/dd (international format)
+- subsetting based on multiple conditions : eg. is_lab = dogs["breed] == "Labrador" 
+                                                is_brown = dogs["color"] == "Brown"
+                                                dogs[is_lab & is_brown]                                              
