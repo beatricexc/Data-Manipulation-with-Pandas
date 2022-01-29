@@ -39,3 +39,10 @@ Dataframe objects are made of three components stored as attributes:
 
                                         
 - filtering on multiple values of categorical variable with the .isin() method ![image](https://user-images.githubusercontent.com/72341578/151679689-183ce6fd-076d-4ad5-885b-a5432e3990f2.png)
+
+#### Adding and/or Creating New Columns /Mutatiting a DataFrame/ Feature Engineering
+- eg dogs["bmi"] = dogs["weight_kg"] / dogs["height_m"] ** 2
+![image](https://user-images.githubusercontent.com/72341578/151680614-8c8c1fd2-02a6-4b54-84c5-0c12614f9bb0.png)
+)
+
+
