@@ -46,9 +46,9 @@ Dataframe objects are made of three components stored as attributes:
 
 #### Multiple Manipulation
 - getting the name of the skinny dogs
-                                bmi_lt_100 = dogs[dogs["bmi"] < 100]
-                                bmi_lt_100_height = bmi_lt_100.sort_values("height_cm", ascending = False)
-                                bmi_lt_100_height[["name", "height_cm", "bmi"]]
+                                              bmi_lt_100 = dogs[dogs["bmi"] < 100]
+                                              bmi_lt_100_height = bmi_lt_100.sort_values("height_cm", ascending = False)
+                                              bmi_lt_100_height[["name", "height_cm", "bmi"]]
                       
                       
 ![image](https://user-images.githubusercontent.com/72341578/151680714-a20620b4-5c36-4767-987b-77b0b797dfca.png)
