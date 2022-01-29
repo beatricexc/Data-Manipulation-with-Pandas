@@ -38,3 +38,4 @@ Dataframe objects are made of three components stored as attributes:
                                                 dogs[(dogs["breed"] == "Labraddor") & (dogs["color"] == "Brown)]
 
                                         
+- filtering on multiple values of categorical variable with the .isin() method ![image](https://user-images.githubusercontent.com/72341578/151679689-183ce6fd-076d-4ad5-885b-a5432e3990f2.png)
