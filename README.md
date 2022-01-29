@@ -50,7 +50,7 @@ Dataframe objects are made of three components stored as attributes:
 
                                               bmi_lt_100 = dogs[dogs["bmi"] < 100]
                                               bmi_lt_100_height = bmi_lt_100.sort_values("height_cm", ascending = False)
-                                              bmi_lt_100_height[["name", "height_cm", "bmi"]]
+                                              bmi_lt_100_height[["name", "height_cm", "bmi"]]   #keeping only the values we're interested in
                       
                       
 ![image](https://user-images.githubusercontent.com/72341578/151680714-a20620b4-5c36-4767-987b-77b0b797dfca.png)
