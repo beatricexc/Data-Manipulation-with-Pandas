@@ -32,4 +32,8 @@ Dataframe objects are made of three components stored as attributes:
                                             eg. is_lab = dogs["breed] == "Labrador" 
                                                 is_brown = dogs["color"] == "Brown"
                                                 
-                                                dogs[is_lab & is_brown]                                              
+                                                dogs[is_lab & is_brown]  
+                                                or
+                                                dogs[(dogs["breed"] == "Labraddor") & (dogs["color"] == "Brown)]
+
+                                        
