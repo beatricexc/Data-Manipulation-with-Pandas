@@ -53,10 +53,23 @@ Helpful in tracking summary statistics over time
 ![image](https://user-images.githubusercontent.com/72341578/151698421-973d9ef3-7cfb-4ba3-ae3b-ed01bf922efa.png)
 
 
-- Counting
-- Dropping Duplicates
-- Counting categorical variables
-- Grouped summary statistics
+#### Counting 
+Used with **categorical** values 
+- dropping duplicate names .drop_duplicates(subset="name")
+- dropping duplicate paris .drop_duplicates(subset=["name", "breed"])
+- counting  
+
+                                        
+                                       variable_name["column_name"].value_counts() 
+                                       variable_name["column_name"].value_counts(sort = True)    #descending order 
+                                       variable_name["column_name].value_counts(normalize = True)  #getting the proportion of the column with the normalize argument 
+
+
+
+
+
+#### Grouped summary statistics 
+
 - Calculations with .groupby()
 - Multiple group summaries
 - Pivot tables
