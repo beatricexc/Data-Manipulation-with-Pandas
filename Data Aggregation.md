@@ -13,7 +13,9 @@ The minimum and the maximum can help you see what time range the dataset covers.
 
 #### Efficient summaries
 The .agg() method allows you to apply your own custom functions to a df
-                                                  - df["column_name"].agg(function)
+
+
+                                                    - df["column_name"].agg(function)
                                                  
                                                  
                                                  
