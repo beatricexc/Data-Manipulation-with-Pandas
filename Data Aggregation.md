@@ -40,7 +40,19 @@ The .agg() method allows you to apply your own custom functions to a df
 
 
                                              
-- Cumulative Statistics 
+#### Cumulative Statistics 
+Helpful in tracking summary statistics over time
+- .cumsum()
+- .cummax()
+
+![image](https://user-images.githubusercontent.com/72341578/151698406-ead143d5-da9f-4dff-addd-3a1bc62b8535.png)
+
+
+**Output** 
+
+![image](https://user-images.githubusercontent.com/72341578/151698421-973d9ef3-7cfb-4ba3-ae3b-ed01bf922efa.png)
+
+
 - Counting
 - Dropping Duplicates
 - Counting categorical variables
