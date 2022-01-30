@@ -1,0 +1,15 @@
+### Data Aggregation 
+
+- Mean and Median
+- Summarizing dates
+- Efficient summaries
+- Cumulative Statistics 
+- Counting
+- Dropping Duplicates
+- Counting categorical variables
+- Grouped summary statistics
+- Calculations with .groupby()
+- Multiple group summaries
+- Pivot tables
+- Pivoting in one variable
+- Fill in missing values and sum values with pivot tables
