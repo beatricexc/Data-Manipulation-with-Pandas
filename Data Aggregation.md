@@ -36,7 +36,8 @@ The .agg() method allows you to apply your own custom functions to a df
                                                     
                                                     
                                                     
-  ![image](https://user-images.githubusercontent.com/72341578/151698174-d7e19767-0c9f-4a50-b5b7-bb9bcf438d93.png)
+                                                    
+![image](https://user-images.githubusercontent.com/72341578/151698174-d7e19767-0c9f-4a50-b5b7-bb9bcf438d93.png)
 
 
                                              
@@ -88,10 +89,10 @@ Used with **categorical** values
                                       eg: dogs.groupby(["color", "breed"])[["weight_kg", "height_cm"]].mean()
                                       
                                       
-                                   ![image](https://user-images.githubusercontent.com/72341578/151712715-42fd5296-a955-4fa3-9779-803b72867694.png)
+ ![image](https://user-images.githubusercontent.com/72341578/151712715-42fd5296-a955-4fa3-9779-803b72867694.png)
    
  
--
+
 - Pivot tables
 - Pivoting in one variable
 - Fill in missing values and sum values with pivot tables
