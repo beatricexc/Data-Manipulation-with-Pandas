@@ -1,6 +1,9 @@
 ### Data Aggregation 
 
-- Mean and Median
+#### Mean and Median
+- df["column_name"].mean
+- df["column_name"].median
+
 - Summarizing dates
 - Efficient summaries
 - Cumulative Statistics 
