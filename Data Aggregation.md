@@ -56,7 +56,7 @@ Helpful in tracking summary statistics over time
 #### Counting 
 Used with **categorical** values 
 - dropping duplicate names .drop_duplicates(subset="name")
-- dropping duplicate paris .drop_duplicates(subset=["name", "breed"])
+- dropping duplicate pairs .drop_duplicates(subset=["name", "breed"]) - passing a list of column names to the drop argument
 - counting  
 
                                         
@@ -71,7 +71,27 @@ Used with **categorical** values
 #### Grouped summary statistics 
 
 - Calculations with .groupby()
-- Multiple group summaries
+- 
+                                      eg: dogs.groupby("color")["weigth_kg"].mean()
+                                      
+- multiple grouped summaries with .agg([])
+        
+                                      eg: dogs.groupby("color")["weight_kg"].agg([min, max, sum])
+                                      
+- grouping by multiple variables 
+
+                                      eg: dogs.groupby(["color", "breed"])["weight_kg"].mean()
+                                      
+ 
+ - grouping by multiple columns and aggregating by multiple columns
+
+                                      eg: dogs.groupby(["color", "breed"])[["weight_kg", "height_cm"]].mean()
+                                      
+                                      
+                                   ![image](https://user-images.githubusercontent.com/72341578/151712715-42fd5296-a955-4fa3-9779-803b72867694.png)
+   
+ 
+-
 - Pivot tables
 - Pivoting in one variable
 - Fill in missing values and sum values with pivot tables
