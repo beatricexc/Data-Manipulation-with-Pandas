@@ -1,7 +1,7 @@
 # Chapter 3. Slicing and Indexing DataFrames
 Indexing is used to make subsetting code cleaner with .loc[[""]] and .iloc[]
-.loc filters on index values
-pass the value name you want into the list, and .loc will filter that for you
+- .loc filters on index values
+- pass the value name you want into the list, and .loc will filter that for you
 
 
 #### Setting the column as the index with .set_index("name") 
@@ -19,7 +19,7 @@ pass the value name you want into the list, and .loc will filter that for you
 
 #### Multi-level indexes a.k.a hierarchical indexes
 - new_variable = df.set_index(["", ""])
-- 
+
 ![image](https://user-images.githubusercontent.com/72341578/151886824-28bd36e9-ab7d-4a05-bd92-b844c1d9d71c.png)
 
 
