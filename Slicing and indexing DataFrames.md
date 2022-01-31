@@ -23,4 +23,18 @@ Indexing is used to make subsetting code cleaner with .loc[[""]] and .iloc[]
 ![image](https://user-images.githubusercontent.com/72341578/151886824-28bd36e9-ab7d-4a05-bd92-b844c1d9d71c.png)
 
 
-- "color" is the inner level and the implication is that the inner level is nested inside the outer level "breed". 
+- "color" is the inner level and the implication is that the inner level is nested inside the outer level "breed"
+- to subset on the outer level we use a list 
+- 
+![image](https://user-images.githubusercontent.com/72341578/151887408-10924cc0-bc45-4db0-a1f2-c99ab5f5288b.png)
+
+- to subset on the inner level, we need to pass a list of tuples ( the resulting rows need to match all conditions in order to be returned)
+
+![image](https://user-images.githubusercontent.com/72341578/151887344-133cf139-ef60-4754-bd55-782757dfa93d.png)
+
+#### Sorting by index values 
+- using the .sort_index() by default from outer to inner in ascending order
+- controlling the sorting by passing lists to te *level* and the *ascending* argument
+
+![image](https://user-images.githubusercontent.com/72341578/151887741-07708418-afc6-4cd0-8da4-7a15880ffae3.png)
+
