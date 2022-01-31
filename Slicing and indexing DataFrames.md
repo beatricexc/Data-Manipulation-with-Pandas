@@ -38,3 +38,19 @@ Indexing is used to make subsetting code cleaner with .loc[[""]] and .iloc[]
 
 ![image](https://user-images.githubusercontent.com/72341578/151887741-07708418-afc6-4cd0-8da4-7a15880ffae3.png)
 
+ Subsetting 
+ - using square brackets 
+ 
+![image](https://user-images.githubusercontent.com/72341578/151889849-be162f11-73fe-4495-9657-97d83ea3d13a.png)
+
+- using .iloc[]
+
+![image](https://user-images.githubusercontent.com/72341578/151889914-c3a13833-ccc8-4e9c-9b75-bcd32c264e2d.png)
+
+**Output** 
+
+![image](https://user-images.githubusercontent.com/72341578/151890017-1ca303e6-6ca1-4e09-993c-09f845da0bbe.png)
+
+
+![image](https://user-images.githubusercontent.com/72341578/151890062-983cf058-5bcd-431d-9f00-3f9d2a783a9e.png)
+
