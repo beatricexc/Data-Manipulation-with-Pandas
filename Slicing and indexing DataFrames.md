@@ -71,11 +71,11 @@ Indexing is used to make subsetting code cleaner with .loc[[""]] and .iloc[]
 - since df are two-dimensional objects, we can also slice columns by passing 2 arguments to .loc
                   - subsetting columns but keeping all rows df_st.loc[:, " " : " " ] 
 
-                  ![image](https://user-images.githubusercontent.com/72341578/151895313-d36e5af8-4633-4f67-b515-2fdb438efa04.png)
+ ![image](https://user-images.githubusercontent.com/72341578/151895313-d36e5af8-4633-4f67-b515-2fdb438efa04.png)
 
 - slice twice 
 
-                  ![image](https://user-images.githubusercontent.com/72341578/151895406-709a7e76-fbbe-4b15-8bfe-f320030e9727.png)
+ ![image](https://user-images.githubusercontent.com/72341578/151895406-709a7e76-fbbe-4b15-8bfe-f320030e9727.png)
 
 
 
