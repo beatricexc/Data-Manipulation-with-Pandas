@@ -54,3 +54,27 @@ Indexing is used to make subsetting code cleaner with .loc[[""]] and .iloc[]
 
 ![image](https://user-images.githubusercontent.com/72341578/151890062-983cf058-5bcd-431d-9f00-3f9d2a783a9e.png)
 
+### Slicing 
+- you can slice a list by stating the index position [2:4] etc.
+- if you want to slice a dataframe, you first need to sort the index before slicing 
+
+![image](https://user-images.githubusercontent.com/72341578/151891761-c7a0a4dd-6605-49b7-bb9e-ba5ad4d28a5a.png)
+
+- slicing at the outer level with .loc by passing the first and last column separated by ":" 
+
+![image](https://user-images.githubusercontent.com/72341578/151891854-d4fce1ac-f770-4815-abac-95a344a23098.png)
+
+- slicing at the inner level by passing the first and last positions as tuples 
+
+![image](https://user-images.githubusercontent.com/72341578/151892009-cb0fb7f1-33ab-4dd6-8928-1e29f6ed9d09.png)
+
+- since df are two-dimensional objects, we can also slice columns by passing 2 arguments to .loc
+                  - subsetting columns but keeping all rows df_st.loc[:, " " : " " ] 
+
+                  ![image](https://user-images.githubusercontent.com/72341578/151895313-d36e5af8-4633-4f67-b515-2fdb438efa04.png)
+
+- slice twice 
+                  ![image](https://user-images.githubusercontent.com/72341578/151895406-709a7e76-fbbe-4b15-8bfe-f320030e9727.png)
+
+
+
