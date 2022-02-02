@@ -77,7 +77,30 @@ Indexing is used to make subsetting code cleaner with .loc[[""]] and .iloc[]
 
  ![image](https://user-images.githubusercontent.com/72341578/151895406-709a7e76-fbbe-4b15-8bfe-f320030e9727.png)
 
-####Pivot Tables
+#### Pivot Tables = dataframes with sorted indexes
+- pivoting the dog pack
+
+                                dogs_height_by_breed_vs_color = dog_pack.pivot_table("height_cm", index = "breed", column = "color")
+                                print(dogs_height_by_bread_vs_color)
+ 
+ 
+![image](https://user-images.githubusercontent.com/72341578/152247467-5a73e1ad-948f-4f3b-9236-a7e8cb4c0113.png)
+
+ - power combo = .loc[] + slicing 
+ 
+                                dogs_height_by_breed_vs_color.loc["Chow Chow" : "Poodle"]
+                                
+![image](https://user-images.githubusercontent.com/72341578/152247930-b75931fa-9af6-4eba-a717-da1641cef049.png)
+
+- the axis argument has the default value as axis = "index" meaning calcualte the statistic across rows 
+
+![image](https://user-images.githubusercontent.com/72341578/152248208-8a9b3888-721c-478f-a9a0-835a7bfa6dd2.png)
+
+                               
+- calculating the statistics across columns (meanig for each row)
+
+![image](https://user-images.githubusercontent.com/72341578/152248294-a2fa656a-b003-43d7-964d-d4df87284bbe.png)
+
 
 
 
