@@ -77,5 +77,8 @@ Indexing is used to make subsetting code cleaner with .loc[[""]] and .iloc[]
 
  ![image](https://user-images.githubusercontent.com/72341578/151895406-709a7e76-fbbe-4b15-8bfe-f320030e9727.png)
 
+####Pivot Tables
+
+
 
 
